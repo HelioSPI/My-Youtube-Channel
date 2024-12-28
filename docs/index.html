@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HelioV</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        section {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        section:nth-child(odd) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        section p {
+            font-size: 1.2rem;
+        }
+
+        /* Button Style */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff9800;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #e67e22;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        /* Box Shadow for Highlighted Elements */
+        section, .btn {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HelioV</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#youtube">YouTube</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am passionate about creating content and connecting with my audience. This website showcases my journey!</p>
+    </section>
+    <section id="youtube">
+        <h2>My YouTube Channel</h2>
+        <p>Join me on my creative journey! Watch videos, leave comments, and subscribe to <strong>@HelioV</strong>.</p>
+        <a href="https://www.youtube.com/@HelioV" class="btn" target="_blank">Visit My Channel</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 HelioV. All Rights Reserved.</p>
+    </footer>
+</body>
+  </html>
